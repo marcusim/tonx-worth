@@ -1,4 +1,4 @@
 pygments: true
-permalink: '/:title'
+permalink: pretty
 markdown: kramdown
 server_port: 4000

@@ -1,4 +1,5 @@
 require 'rake'
+require 'yuicompressor'
 
 desc "Compile CSS files"
 task :css do
@@ -12,7 +13,12 @@ task :css do
   end
 
   # `mv ./static/css/temp.css ./static/css/style.css`
-  `yuicompressor ./static/css/temp.css > ./static/css/style.css`
+  # `yuicompressor ./static/css/temp.css > ./static/css/style.css`
+
+  css = File.read('static/css/temp.css')
+  File.open('static/css/style.css', 'w') do |file|
+    file.write(YUICompressor.compress_css(css))
+  end
 
   puts 'CSS dumped to ./static/css/style.css'
 end
@@ -33,5 +39,5 @@ task :serve do
   Rake::Task['css'].execute
 
   `open http://localhost:4000`
-  `jekyll --serve --no-pygments`
+  `jekyll --serve --no-pygments --auto`
 end

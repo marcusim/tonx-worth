@@ -6,3 +6,5 @@ gem 'kramdown'
 group :development do
   gem 'RedCloth'
 end
+
+gem 'yuicompressor'

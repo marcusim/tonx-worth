@@ -16,6 +16,7 @@ GEM
     maruku (0.6.0)
       syntax (>= 1.0.0)
     syntax (1.0.0)
+    yuicompressor (1.2.0)
 
 PLATFORMS
   ruby
@@ -24,3 +25,4 @@ DEPENDENCIES
   RedCloth
   jekyll (~> 0.9)
   kramdown
+  yuicompressor

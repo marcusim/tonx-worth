@@ -1030,7 +1030,7 @@ article ul li li li {
 }
 
 #avatar {
-  background-image: url('/static/images/sirup.jpg');
+  background-image: url('/static/images/marcus.jpg');
   background-size: cover;
   height: 134px;
   width: 134px;
@@ -1045,8 +1045,8 @@ article ul li li li {
 }
 
 #social li {
-  display: inline-block;
-  font-size: 22px;
+  /*display: inline-block;*/
+  /*font-size: 22px;*/
   overflow: hidden;
 }
 
@@ -1058,6 +1058,22 @@ article ul li li li {
 }
 
 #social a:hover, #social a:visited:hover {
+  color: #423F37;
+  text-decoration: none;
+}
+
+#me li {
+  /*font-size: 16px;*/
+}
+
+#me a, #me a:visited {
+  color: #999;
+  -webkit-transition:color 200ms ease-in;
+  -moz-transition:color 200ms ease-in;
+  -o-transition:color 200ms ease-in;
+}
+
+#me a:hover, #me a:visited:hover {
   color: #423F37;
   text-decoration: none;
 }
