@@ -7,15 +7,16 @@ title: Marcus' World
   {% for post in site.posts %}
     <li>
       <a class="nine columns" href="{{ post.url }}">
-        {% if {{post.category}} == "food" %}
-          <i class="icon-food"></i> {{ post.title }}
-        {% elsif {{post.category}} == "football" %}
-          <i class="icon-bullhorn"></i> {{ post.title }}
+        {% if {{post.category}} == "football" %}
+          <i class="icon-bullhorn"></i>
         {% elsif {{post.category}} == "marketing" %}
-          <i class="icon-money"></i> {{ post.title }}
+          <i class="icon-money"></i>
+        {% elsif {{post.category}} == "food" %}
+          <i class="icon-food"></i>
         {% else %}
-          <i class="icon-asterisk"></i> {{ post.title }}
+          <i class="icon-asterisk"></i>
         {% endif %} 
+         {{ post.title }}
       </a>
       <span class="two columns">{{ post.date | date: "%b %Y" }}</span>
     </li>
