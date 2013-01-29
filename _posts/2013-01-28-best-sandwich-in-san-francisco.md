@@ -2,7 +2,7 @@
 layout: post
 title: "Best Sandwich in San Francisco"
 description: ""
-category: 
+category: "food" 
 tags: []
 ---
 

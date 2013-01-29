@@ -1,12 +1,22 @@
 ---
 layout: default
-title: Marcus Im's World
+title: Marcus' World
 ---
 
 <ul id="posts" class="twelve columns offset-by-four">
   {% for post in site.posts %}
     <li>
-      <a class="nine columns" href="{{ post.url }}">{{ post.title }}</a>
+      <a class="nine columns" href="{{ post.url }}">
+        {% if {{post.category}} == "food" %}
+          <i class="icon-food"></i> {{ post.title }}
+        {% elsif {{post.category}} == "football" %}
+          <i class="icon-bullhorn"></i> {{ post.title }}
+        {% elsif {{post.category}} == "marketing" %}
+          <i class="icon-money"></i> {{ post.title }}
+        {% else %}
+          <i class="icon-asterisk"></i> {{ post.title }}
+        {% endif %} 
+      </a>
       <span class="two columns">{{ post.date | date: "%b %Y" }}</span>
     </li>
   {% endfor %}
