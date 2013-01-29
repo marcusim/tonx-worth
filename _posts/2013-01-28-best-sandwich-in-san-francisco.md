@@ -6,6 +6,6 @@ category:
 tags: []
 ---
 
-# Deli Board
+### Deli Board
 
 There is no doubt in my mind that Deli Board is the best sandwich in San Francisco.
