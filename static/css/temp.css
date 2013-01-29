@@ -914,6 +914,7 @@ li[class^="icon-"].icon-large:before, li[class*=" icon-"].icon-large:before {
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
   .gray { color: #999; }
+  .dark-grey { color: #423F37; }
 
 		
 	
@@ -954,18 +955,18 @@ h4 {
 }
 
 a {
-  color: #06A;
+  color: #825CA9;
   text-decoration: none;
 }
 
 a:hover {
-  color: #06A;
+  color: #825CA9;
   text-decoration: underline;
   cursor: pointer;
 }
 
 a:visited { 
-  color: #607890; 
+  color: #47008F; 
 }
 
 #posts a {
@@ -1030,7 +1031,7 @@ article ul li li li {
 }
 
 #avatar {
-  background-image: url('/static/images/marcus.jpg');
+/*  background-image: url('/static/images/marcus.jpg');
   background-size: cover;
   height: 134px;
   width: 134px;
@@ -1041,7 +1042,7 @@ article ul li li li {
   opacity: 0.8;
   -webkit-transition:all 500ms ease-in;
   -moz-transition:all 500ms ease-in;
-  -o-transition:all 500ms ease-in;
+  -o-transition:all 500ms ease-in;*/
 }
 
 #social li {
@@ -1058,7 +1059,7 @@ article ul li li li {
 }
 
 #social a:hover, #social a:visited:hover {
-  color: #423F37;
+  color: #47008F;
   text-decoration: none;
 }
 
@@ -1074,7 +1075,7 @@ article ul li li li {
 }
 
 #me a:hover, #me a:visited:hover {
-  color: #423F37;
+  color: #47008F;
   text-decoration: none;
 }
 

@@ -10,7 +10,7 @@ blog: true
 
   <div class='ten columns gray' id="date-header">
     <p>
-      {{ page.date | date: "%b %Y" }}
+      {{ page.date | date: "%b %d, %Y" }}
   {% if page.updated_at %}
       revised {{ page.updated_at }}
   {% endif %}
@@ -22,10 +22,5 @@ blog: true
     {{ content }}
   </div>
 
-  <footer class="ten columns">
-    <p id='follow'>
-      You should <a href="http://twitter.com/Sirupsen" target="_blank" onClick="_gaq.push(['_trackEvent', 'Post', 'Click', 'Twitter']);">follow me on Twitter</a> and
-      <a href="http://eepurl.com/uw8Bn" target="_blank" onClick="_gaq.push(['_trackEvent', 'Post', 'Click', 'Newsletter']);">subscribe to my infrequent newsletter.</a>
-    </p>
-  </footer>
+  {% include footer.html %}
 </article>
