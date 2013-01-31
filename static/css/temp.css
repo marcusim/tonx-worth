@@ -1332,6 +1332,18 @@ article ul li li li {
   text-decoration: none;
 }
 
+#boo {
+  color: #fff;
+  font-size: 10px;
+  -webkit-transition:color 500ms ease-in;
+  -moz-transition:color 500ms ease-in;
+  -o-transition:color 500ms ease-in;
+}
+
+#boo :hover {
+  color: #999;
+}
+
 sup, sub {
   height: 0;
   line-height: 1;

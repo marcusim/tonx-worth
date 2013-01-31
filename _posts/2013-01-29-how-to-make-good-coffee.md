@@ -16,4 +16,4 @@ All you need are 3 things:
 
 And this:
 
-<iframe width="460" height="280" src="http://www.youtube.com/embed/sVLdFbSgkyU?feature=player_detailpage" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe width="640" height="360" src="http://www.youtube.com/embed/sVLdFbSgkyU?feature=player_detailpage" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
