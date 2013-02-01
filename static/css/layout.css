@@ -110,6 +110,7 @@ a:visited {
   90% { -moz-transform: translate(2px, 2px) rotate(0deg); }
   100% { -moz-transform: translate(1px, -2px) rotate(-1deg); }
 }
+
 .shake:hover {
   -webkit-animation-name: spaceboots;
   -webkit-animation-duration: 1.5s;
@@ -123,6 +124,25 @@ a:visited {
   -moz-animation-timing-function: linear;
   -o-animation-name: spaceboots;
   -o-animation-duration: 1.5s;
+  -o-transform-origin:50% 50%;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+}
+
+.shake-on {
+  display: inline-block;
+  -webkit-animation-name: spaceboots;
+  -webkit-animation-duration: 0.8s;
+  -webkit-transform-origin:50% 50%;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spaceboots;
+  -moz-animation-duration: 0.8s;
+  -moz-transform-origin:50% 50%;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -o-animation-name: spaceboots;
+  -o-animation-duration: 0.8s;
   -o-transform-origin:50% 50%;
   -o-animation-iteration-count: infinite;
   -o-animation-timing-function: linear;

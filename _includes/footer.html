@@ -9,12 +9,12 @@
       var divSelected = null;
       function SelectOrUnSelect(x) {
         divSelected = document.getElementById(x);
-        if (divSelected.className == 'icon-star-empty') document.getElementById(x).className = 'icon-star';
-        else if (divSelected.className == 'icon-star') document.getElementById(x).className = 'icon-star-empty';
+        if (divSelected.className == 'icon-star-empty') document.getElementById(x).className = 'icon-star shake-on';
+        else if (divSelected.className == 'icon-star shake-on') document.getElementById(x).className = 'icon-star-empty';
       }
     </script>
 
     <p id='props'>
-      Thanks for reading. Give it a <a onClick="prop();SelectOrUnSelect('star');" class="shake"><i id="star" class="icon-star-empty"></i></a>?
+      Thanks for reading. Give it a <a onClick="prop();SelectOrUnSelect('star');"><i id="star" class="icon-star-empty"></i></a>?
     </p>
   </footer>
