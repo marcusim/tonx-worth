@@ -8,7 +8,7 @@ tags: []
 
 ### Ravens: 31 - 49ers: 24
 
-This game is really only going to come down to one thing. And it's not this guy:
+This game is really only going to come down to one thing. And it's definitely not this guy:
 
 ![Not This Guy](http://l.yimg.com/bt/api/res/1.2/jMAp9TDmQtyrs64dNT_pBA--/YXBwaWQ9eW5ld3M7Zmk9aW5zZXQ7aD0zNzU7cT04NTt3PTUxMg--/http://media.zenfs.com/en_us/Sports/ap/201301311057394478282-p2.jpeg "Associated Press")
 <small><center>^ Loser.</center></small>
@@ -40,8 +40,6 @@ This is going to be *the* on Sunday. The Ravens defense has looked mortal throug
 If I had to guess, the under-rated (so strange to describe it as such) Ravens defense will be able to *slow* Kaepernick and grab a couple turnovers. That will be the deciding factor in this game. How sweet would it be if Ray Lewis sealed the game with an interception?
 
 ![this gator-arm shit](http://i.imgur.com/kxzSh.gif "this gator-arm shit")
-
-No wonder he's retiring.
+<center><small>No wonder he's retiring.</small></center>
 
 Ray Lewis will do his best Jerome Bettis-impersonation and ride off into the sunset with another ring. And Ed Reed will claim his own as his career winds down. The 49ers will win it next year.
-
