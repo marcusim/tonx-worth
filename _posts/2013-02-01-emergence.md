@@ -14,11 +14,9 @@ What are snowflakes?
 
 I honestly have no clue. I didn't pay enough attention in school to remember anything about them. But I do know this: they're basically fancy-ass frozen rain-drops.
 
-Snowflakes are great examples of [emergence](http://en.wikipedia.org/wiki/Emergence). Whereas molecules of water are typically not all that fascinating on their own, when they come together and decide to get cold, they become a majestic snowflake.
+...and great examples of [emergence](http://en.wikipedia.org/wiki/Emergence). Whereas molecules of water are typically not all that fascinating on their own, when they come together and decide to get cold, they become a magical little snowflake.
 
-See where I'm heading with this?
-
-Teams need to rely heavily on the lesson of snowflakes. A successful team must be greater than the sum of its parts - and that's no easy task. Luckily for us, snowflakes can teach us a thing or two about snowflakogoly.
+They're also great examples of how teams should be created. A successful team must be greater than the sum of its parts - and though that's no easy task, luckily for us, we don't need a PhD in snowflakogoly to glean a couple things.
 
 ### Come Together
 
