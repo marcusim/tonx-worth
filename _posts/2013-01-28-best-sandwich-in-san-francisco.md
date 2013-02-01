@@ -10,7 +10,7 @@ tags: []
 
 [Deli Board](http://www.deliboardsf.com/) reigns supreme in San Francisco.
 
-What makes it so good? Probably the thinly-sliced, but still juicy meat, encased in a warm, soft blanket of fresh bread. Or maybe it's the host sauce. Either way, trust me, once you try it, you'll believe.
+What makes it so good? Probably the thinly-sliced-but-still-juicy-meat encased in a warm, soft blanket of fresh bread. Or maybe it's the hot sauce. Either way, trust me, once you try it, you'll believe.
 
 Look at this fine piece of meat...
 
