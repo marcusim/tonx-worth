@@ -6,19 +6,21 @@ title: Home
 <ul id="posts" class="twelve columns offset-by-four">
   {% for post in site.posts %}
     <li>
-      <a class="eight columns shake" href="{{ post.url }}">
-        {% if {{post.category}} == "football" %}
-          <i class="icon-bullhorn"></i>
-        {% elsif {{post.category}} == "marketing" %}
-          <i class="icon-money"></i>
-        {% elsif {{post.category}} == "food" %}
-          <i class="icon-food"></i>
-        {% else %}
-          <i class="icon-asterisk"></i>
-        {% endif %} 
-         {{ post.title }}
-      </a>
-      <span class="three columns">{{ post.date | date: "%b %d, %Y" }}</span>
+      {% unless {{post.description}} == 'draft' %}
+        <a class="eight columns shake" href="{{ post.url }}">
+          {% if {{post.category}} == "football" %}
+            <i class="icon-bullhorn"></i>
+          {% elsif {{post.category}} == "business" %}
+            <i class="icon-money"></i>
+          {% elsif {{post.category}} == "food" %}
+            <i class="icon-food"></i>
+          {% else %}
+            <i class="icon-asterisk"></i>
+          {% endif %} 
+           {{ post.title }}
+        </a>
+        <span class="three columns">{{ post.date | date: "%b %d, %Y" }}</span>
+        {% endunless %}
     </li>
   {% endfor %}
 </ul>
