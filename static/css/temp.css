@@ -1404,19 +1404,19 @@ article ul li li li {
 }
 
 #hello { 
-  height: 140px;
-  line-height: -150px; 
-  color: transparent;
-  margin-top: 120px;
-  padding-bottom: 10px;
-  -webkit-transition: all 1s ease; 
-  -moz-transition: all 1s ease; 
-  -o-transition: all 1s ease; 
+  height:140px;
+  line-height:-150px;
+  color:transparent;
+  margin-top:120px;
+  padding-bottom:10px;
+  -webkit-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -o-transition:all 1s ease
 }
 
 #hello:hover { 
   line-height: 140px;
-  color: #FFFFCC; 
+  color: #FFFF99;
 }
 
 #hello i {
@@ -1448,9 +1448,9 @@ article ul li li li {
   color: #999;
   font-size: 15px;
   padding-left: 25px;
-  -webkit-transition:all 1s ease-in;
-  -moz-transition:all 1s ease-in;
-  -o-transition:all 1s ease-in;
+  -webkit-transition:all 0.8s ease;
+  -moz-transition:all 0.8s ease;
+  -o-transition:all 0.8s ease;
   -webkit-transform: rotate(-35deg);
   -moz-transform: rotate(-35deg);
   -o-transform: rotate(-35deg);
