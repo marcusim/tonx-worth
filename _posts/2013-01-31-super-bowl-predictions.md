@@ -19,7 +19,7 @@ lolwut?
 
 Don't get me wrong. If you asked me about the 49ers defense during the regular season, I would've gone on-and-on about the superiority of Aldon Smith, Justin Smith, Patrick Willis, Ahmad Brooks, Navorro Bowman... you get the picture. They're completely stacked. I don't mean any disrespect on this group. But this isn't about them.
 
-It's about Joe.
+### It's about Joe.
 
 It wasn't always like this, though. As a fervent Ravens fan, I can tell you Joe has been [aggressively average](http://www.nfl.com/videos/baltimore-ravens/0ap2000000112713/Broncos-defense-INT-TD) - or maybe inconsistent is a better word. Really, regardless of the adjective, nobody - not even the most-optimistic of fans - could've seen Joe's late-season transformation coming.
 
