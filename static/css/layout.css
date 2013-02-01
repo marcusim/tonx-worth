@@ -50,16 +50,86 @@ a:visited {
 }
 
 #posts a {
-  padding-bottom: 15px;
+  padding-bottom: 15px; 
+  -webkit-transition:all 0.5s ease;
+  -moz-transition:all 0.5s ease;
+  -o-transition:all 0.5s ease;
 }
 
 #posts {
   font-size: 20px;
 }
 
+#posts a:hover {
+  text-decoration: none;
+}
+
 #posts span {
   color: #999;
   text-align: right;
+}
+
+@-webkit-keyframes spaceboots {
+  0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+  10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+  30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+  40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+  50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+  70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+  80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+  90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+  100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@-o-keyframes spaceboots {
+  0% { -o-transform: translate(2px, 1px) rotate(0deg); }
+  10% { -o-transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { -o-transform: translate(-3px, 0px) rotate(1deg); }
+  30% { -o-transform: translate(0px, 2px) rotate(0deg); }
+  40% { -o-transform: translate(1px, -1px) rotate(1deg); }
+  50% { -o-transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { -o-transform: translate(-3px, 1px) rotate(0deg); }
+  70% { -o-transform: translate(2px, 1px) rotate(-1deg); }
+  80% { -o-transform: translate(-1px, -1px) rotate(1deg); }
+  90% { -o-transform: translate(2px, 2px) rotate(0deg); }
+  100% { -o-transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@-moz-keyframes spaceboots {
+  0% { -moz-transform: translate(2px, 1px) rotate(0deg); }
+  10% { -moz-transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { -moz-transform: translate(-3px, 0px) rotate(1deg); }
+  30% { -moz-transform: translate(0px, 2px) rotate(0deg); }
+  40% { -moz-transform: translate(1px, -1px) rotate(1deg); }
+  50% { -moz-transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { -moz-transform: translate(-3px, 1px) rotate(0deg); }
+  70% { -moz-transform: translate(2px, 1px) rotate(-1deg); }
+  80% { -moz-transform: translate(-1px, -1px) rotate(1deg); }
+  90% { -moz-transform: translate(2px, 2px) rotate(0deg); }
+  100% { -moz-transform: translate(1px, -2px) rotate(-1deg); }
+}
+.shake:hover, .shake:focus {
+  -webkit-animation-name: spaceboots;
+  -webkit-animation-duration: 1.5s;
+  -webkit-transform-origin:50% 50%;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spaceboots;
+  -moz-animation-duration: 1.5s;
+  -moz-transform-origin:50% 50%;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -o-animation-name: spaceboots;
+  -o-animation-duration: 1.5s;
+  -o-transform-origin:50% 50%;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+}
+
+.shake {
+  display:inline-block
 }
 
 .sidebar > section {
@@ -141,6 +211,7 @@ article ul li li li {
   color: #47008F;
   text-decoration: none;
 }
+
 #social li {
   /*display: inline-block;*/
   /*font-size: 22px;*/
@@ -175,16 +246,57 @@ article ul li li li {
   text-decoration: none;
 }
 
-#boo {
-  color: #fff;
-  font-size: 10px;
-  -webkit-transition:color 500ms ease-in;
-  -moz-transition:color 500ms ease-in;
-  -o-transition:color 500ms ease-in;
+#hello { 
+  height: 140px;
+  line-height: -150px; 
+  color: transparent;
+  margin-top: 120px;
+  padding-bottom: 10px;
+  -webkit-transition: all 1s ease; 
+  -moz-transition: all 1s ease; 
+  -o-transition: all 1s ease; 
 }
 
-#boo :hover {
+#hello:hover { 
+  line-height: 140px;
+  color: #FFFFCC; 
+}
+
+#hello i {
+  font-size: 140px;
+  float: left;
+}
+
+#hello a, #hello a:visited {
   color: #999;
+  -webkit-transition:color 200ms ease-in;
+  -moz-transition:color 200ms ease-in;
+  -o-transition:color 200ms ease-in;
+}
+
+#hello a:hover, #hello a:visited:hover {
+  color: #47008F;
+  text-decoration: none;
+}
+
+#boo {
+  color: transparent;
+  font-size: 10px;
+  -webkit-transition:all 1s ease-in;
+  -moz-transition:all 1s ease-in;
+  -o-transition:all 1s ease-in;
+}
+
+#boo:hover {
+  color: #999;
+  font-size: 15px;
+  padding-left: 25px;
+  -webkit-transition:all 1s ease-in;
+  -moz-transition:all 1s ease-in;
+  -o-transition:all 1s ease-in;
+  -webkit-transform: rotate(-35deg);
+  -moz-transform: rotate(-35deg);
+  -o-transform: rotate(-35deg);
 }
 
 sup, sub {
