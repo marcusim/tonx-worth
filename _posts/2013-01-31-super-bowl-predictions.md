@@ -35,7 +35,7 @@ So then, what does this game come down to?
 
 Will the Ravens D be able to slow down the Pistol offense? Can Ray Lewis keep up with Kaepernick turning the corner? Will Kaepernick have the tenacity and strength to trade blows with the hard-hitting Ravens defense?
 
-This is going to be *the* on Sunday. The Ravens defense has looked mortal throughout the 2012 season, but after entering the playoffs, they've been stellar. The fact that they were able to keep Tom Brady's top-ranked offense to 13 points speaks volumes... but shouting right back has been the performances of Kaepernick. He's been incredible. He's become what we all hoped Cam Newton would bloom into - and that's scary.
+This is going to be *the* battle on Sunday. The Ravens defense has looked mortal throughout the 2012 season, but after entering the playoffs, they've been stellar. The fact that they were able to keep Tom Brady's top-ranked offense to 13 points speaks volumes... but shouting right back has been the performances of Kaepernick. He's been incredible. He's become what we all hoped Cam Newton would bloom into - and that's scary.
 
 If I had to guess, the under-rated (so strange to describe it as such) Ravens defense will be able to *slow* Kaepernick and grab a couple turnovers. That will be the deciding factor in this game. How sweet would it be if Ray Lewis sealed the game with an interception?
 
