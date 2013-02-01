@@ -1,5 +1,20 @@
   <footer class="ten columns">
-    <p id='follow'>
-      Thanks for reading. <a href="mailto:me@ma.rcus.im" target="_blank">Send me your thoughts.</a>
+
+    <script>
+      function prop()
+      {
+        _gaq.push(['_trackEvent', 'Props', 'Propped', document.title]);
+      }
+      
+      var divSelected = null;
+      function SelectOrUnSelect(x) {
+        divSelected = document.getElementById(x);
+        if (divSelected.className == 'icon-star-empty') document.getElementById(x).className = 'icon-star';
+        else if (divSelected.className == 'icon-star') document.getElementById(x).className = 'icon-star-empty';
+      }
+    </script>
+
+    <p id='props'>
+      Thanks for reading. Give it a <a onClick="prop();SelectOrUnSelect('star');" class="shake"><i id="star" class="icon-star-empty"></i></a>?
     </p>
   </footer>
