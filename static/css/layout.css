@@ -335,6 +335,24 @@ article ul li li li {
   padding-top: 25px;
 }
 
+#copyright {
+  position:relative;
+  bottom:0px;
+  margin-top:85px;
+  font-size:11px;
+  color:#fff;
+  -webkit-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -o-transition:all 1s ease;
+}
+
+#copyright:hover {
+  color:#999;
+  -webkit-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -o-transition:all 1s ease;
+}
+
 sup, sub {
   height: 0;
   line-height: 1;
