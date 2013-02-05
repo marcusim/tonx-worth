@@ -19,6 +19,7 @@
     <link rel="icon" type="image/png" href="/static/images/favicon.png" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+    <meta name="description" content="Welcome to Marcus' Domain. Kick back, grab some bourbon, and relax!" /> 
 
     <link rel="stylesheet" href="/static/css/style.css">
 
@@ -34,6 +35,17 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
+
+      function trackLink(link, category, action) { 
+ 
+      try { 
+      _gaq.push(['_trackEvent', category , action, document.title]); 
+      } catch(err){}
+       
+      setTimeout(function() {
+      document.location.href = link.href;
+      }, 100);
+      }
     </script>
 
     <!--[if IE 7]>
@@ -42,6 +54,7 @@
   </head>
   <body>
     <div class="container">	
+      <!-- Mobile Nav -->
       <div id='mobile' class='two columns hidden'>
         <ul>
           <li><a href='/'>Home</a></li>
@@ -51,47 +64,35 @@
         </ul>
       </div>
 
+      <!-- Side-Nav -->
       <div class="four columns sidebar">
         <section>
+
+          <!-- Logo Bulb -->
           <div id="hello">
-            <a href="/" onClick="_gaq.push(['_trackEvent', 'Logo-Bulb', 'Clicked', document.title]);"><i class="icon-lightbulb"></i></a>
+            <a href="/" onClick="trackLink(this, 'Logo-Bulb', 'Clicked'); return false;"><i class="icon-lightbulb"></i></a>
             <font style="padding-left:25px;">hi</font>
           </div>
 
-<!--           <ul id="social">
-            <li>
-              <a href="http://www.linkedin.com/in/marcusim" id="sidebar-linkedin" class="icon-linkedin-sign" style="font-size: 25px;" target="_blank"></a>
-            </li>
-
-            <li>
-              <a href="http://facebook.com/marcusim" id="sidebar-facebook" class="icon-facebook" title="You should follow me" style="font-size: 25px;" target="_blank"></a>
-            </li>
-
-            <li>
-              <a href="http://twitter.com/marcusim" id="sidebar-twitter" class="icon-twitter" title="You should follow me" style="font-size: 27px;" target="_blank"></a>
-            </li>
-
-            <li>
-              <a href="http://github.com/marcusim" id="sidebar-github" class="icon-github" title="I share and fork code here" target="_blank"></a>
-            </li>
-          </ul>
- -->
+          <!-- Logo Name & Slogan -->
           <ul id="me">
-            <li class="gray"><a href="/" onClick="_gaq.push(['_trackEvent', 'Logo-Name', 'Clicked', document.title]);">Marcus Im</a></li>
-            <li class="gray"><a href="/" onClick="_gaq.push(['_trackEvent', 'Logo-Slogan', 'Clicked', document.title]);">From the Studio</a></li>
+            <li class="gray"><a href="/" onClick="trackLink(this, 'Logo-Name', 'Clicked'); return false;">Marcus Im</a></li>
+            <li class="gray"><a href="/" onClick="trackLink(this, 'Logo-Slogan', 'Clicked'); return false;">From the Studio</a></li>
           </ul>
 
+          <!-- Social Nav -->
           <ul id="social">
-            <li class="gray"><small><a href="mailto:m@rcus.im" target="_blank" onClick="_gaq.push(['_trackEvent', 'Email', 'Clicked', document.title]);"><i class="icon-envelope"></i> me@ma.rcus.im</a></small></li>
-            <li class="gray"><small><a href="http://facebook.com/marcusim" target="_blank" onClick="_gaq.push(['_trackEvent', 'Facebook', 'Clicked', document.title]);"><i class="icon-facebook"></i> facebook.com/marcusim</a></small></li>
-            <li class="gray"><small><a href="http://linkedin.com/in/marcusim" target="_blank" onClick="_gaq.push(['_trackEvent', 'LinkedIn', 'Clicked', document.title]);"><i class="icon-linkedin"></i> linkedin.com/in/marcusim</a></small></li>
-            <li class="gray"><small><a href="http://twitter.com/marcusim" target="_blank" onClick="_gaq.push(['_trackEvent', 'Twitter', 'Clicked', document.title]);"><i class="icon-twitter"></i> @marcusim</a></small></li>
-            <li class="gray"><small><a href="http://github.com/marcusim" target="_blank" onClick="_gaq.push(['_trackEvent', 'Github', 'Clicked', document.title]);"><i class="icon-github-alt"></i> github.com/marcusim</a></small></li>
+            <li class="gray"><small><a href="mailto:m@rcus.im" target="_blank" onClick="trackLink(this, 'Email', 'Clicked'); return false;"><i class="icon-envelope"></i> me@ma.rcus.im</a></small></li>
+            <li class="gray"><small><a href="http://facebook.com/marcusim" target="_blank" onClick="trackLink(this, 'Facebook', 'Clicked'); return false;"><i class="icon-facebook"></i> facebook.com/marcusim</a></small></li>
+            <li class="gray"><small><a href="http://linkedin.com/in/marcusim" target="_blank" onClick="trackLink(this, 'LinkedIn', 'Clicked'); return false;"><i class="icon-linkedin"></i> linkedin.com/in/marcusim</a></small></li>
+            <li class="gray"><small><a href="http://twitter.com/marcusim" target="_blank" onClick="trackLink(this, 'Twitter', 'Clicked'); return false;"><i class="icon-twitter"></i> @marcusim</a></small></li>
+            <li class="gray"><small><a href="http://github.com/marcusim" target="_blank" onClick="trackLink(this, 'Github', 'Clicked'); return false;"><i class="icon-github-alt"></i> github.com/marcusim</a></small></li>
             <li><br></li>
-            <li><small><a href="http://moziy.com/marcusim" target="_blank" onClick="_gaq.push(['_trackEvent', 'Moziy-MI', 'Clicked', document.title]);"><i class="icon-play"></i> moziy.com/marcusim</a></small></li>
-            <li><small><a href="http://moziy.com/nfl" target="_blank" onClick="_gaq.push(['_trackEvent', 'Moziy-NFL', 'Clicked', document.title]);"><i class="icon-play"></i> moziy.com/nfl</a></small></li>
+            <li><small><a href="http://moziy.com/marcusim" target="_blank" onClick="trackLink(this, 'Moziy-MI', 'Clicked'); return false;"><i class="icon-play"></i> moziy.com/marcusim</a></small></li>
+            <li><small><a href="http://moziy.com/nfl" target="_blank" onClick="trackLink(this, 'Moziy-NFL', 'Clicked'); return false;"><i class="icon-play"></i> moziy.com/nfl</a></small></li>
           </ul>
 
+          <!-- Boo -->
           <ul id="boo">
             <li>boo!</li>
           </ul>
@@ -100,17 +101,16 @@
           <ul id="copyright">
             &copy Marcus Im
           </ul>
-
         </section>
       </div>
 
+      <!-- Main Body Top-Nav -->
       <div class="twelve columns offset-by-four" style="position:fixed;top:0px;padding-top:40px;padding-bottom:10px;">
         <ul id="top-nav">
-<!--           <li><a href="/about">About</a></li>
-          <li><a href="">Leads</a></li> -->
         </ul>
       </div>
 
+      <!-- Main Body Content -->
       <div style="padding-top:60px;">
       {{ content }}
       </div>
