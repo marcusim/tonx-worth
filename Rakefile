@@ -63,6 +63,14 @@ task :post do
   end
 end
 
+desc "Update Posts"
+task :push do
+  `git add _posts/*`
+  `git commit -m "edit posts"`
+  `git pull --rebase`
+  `git push`
+end
+
 desc "Deploy site"
 task :deploy do
   Rake::Task['css'].execute
