@@ -10,11 +10,11 @@ tags: []
 
 ![Great Game](http://l.yimg.com/bt/api/res/1.2/zoFoozOPI6ydAGUvPW1FkQ--/YXBwaWQ9eW5ld3M7Zmk9aW5zZXQ7aD00OTE7cT04NTt3PTYzMA--/http://media.zenfs.com/en_us/News/ap_webfeeds/172ba96a3a5f8404280f6a706700d986.jpg "AP Photos")
 
-Besides a terribly painful blackout, this year's Super Bowl was an incredible event. Of course, as a Ravens and 49ers fan, it was by far the best Super Bowl for me personally, but even the half-time performance (Beyonce) was better than anything I can remember (Madonna? Black-Eyed Peas? Janet Jackson?).
+Besides a terribly painful blackout, this year's Super Bowl was an incredible event. Of course, as a Ravens and 49ers fan, it was by far the best Super Bowl for me personally, but even the half-time performance ([Beyonce](http://www.nfl.com/videos/nfl-super-bowl/0ap2000000135280/Beyonce-Super-Bowl-XLVII-halftime-performance)) was better than anything I can remember (Madonna? Black-Eyed Peas? Janet Jackson?).
 
 About the game as a whole, it actually panned out like [I thought it would](http://ma.rcus.im/football/2013/01/31/super-bowl-predictions/) - just a bit closer. The Ravens were able to *slow down* Kaepernick enough to win the game on Joe Flacco's arm. The 49ers secondary was no match for Flacco, and his legendary-streak continued. The only thing that hasn't happened yet is the 49ers winning next year's Super Bowl - and who will doubt they can do it?
 
-Here are some thoughts from each of my halves:
+Here are some thoughts from each of my fan-halves:
 
 ### Thoughts from a Ravens Fan
 
