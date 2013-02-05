@@ -40,6 +40,8 @@ Here are some thoughts from each of my fan-halves:
 
 ### About that Blackout
 
+![Derp.](http://www.lelcomedygold.com/img/LIGHTS-OUT.gif "Derp")
+
 Couldn't resist adding a couple more things on the blackout:
 
 1. **I seriously wonder whether or not the blackout was some sort of jab at Roger Goodell from New Orleans.** I can't think of any man that the people of Louisiana hate more than Goodell after the suspensions, and for the NFL to be made a fool during the biggest annual TV audience, it had to feel good for some folks in NO.
