@@ -40,6 +40,10 @@ Here are some thoughts from each of my fan-halves:
 
 Couldn't resist adding a couple more things on the blackout:
 
-1. **I seriously wonder whether or not the blackout was some sort of jab at Roger Goodell from New Orleans.** I can't think of any man that the people of Louisiana hate more than Goodell after the suspensions, and for the NFL to be made a fool during the biggest TV audience of every year, it had to feel good for some folks in NO.
+1. **I seriously wonder whether or not the blackout was some sort of jab at Roger Goodell from New Orleans.** I can't think of any man that the people of Louisiana hate more than Goodell after the suspensions, and for the NFL to be made a fool during the biggest annual TV audience, it had to feel good for some folks in NO.
 2. **Jim Harbaugh is the brother that...** un-plugs the Nintendo when he's losing. I forget who came up with this joke, and obviously it didn't actually happen, but the image of a fully-grown Jim Harbaugh un-plugging the Nintendo is actually not that hard to imagine.
 3. **Speaking of Buffalo Wild Wings,** [this commercial](http://www.youtube.com/watch?v=0CEhPd8c8Yo) just became a *lot* more interesting. Conspiracy theories, anyone?
+
+### Cya 2012
+
+It's tough to say good-bye to football. It was a *great* year. Already can't wait for next year's fantasy draft.
