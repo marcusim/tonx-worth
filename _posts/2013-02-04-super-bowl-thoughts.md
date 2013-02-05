@@ -18,6 +18,8 @@ Here are some thoughts from each of my fan-halves:
 
 ### Thoughts from a Ravens Fan
 
+![Yup.](http://assets.sbnation.com/assets/2114175/rayjacoby.gif "Boss")
+
 1. **What a way for Ray to walk away from the game.** I don't agree with him about God being invested in the game like [Buffalo Wild Wings](http://i.imgur.com/WkCBjz6.png), but seriously, how could you have written it any better? Like they said on broadcast, for the game to end on a defensive goal-line stand is something you wouldn't have believed, if scripted.
 2. **I'm so glad Ed Reed (my favorite player, all time) finally got his** -especially in his home-state of Louisiana. Watching him celebrate yesterday was as rewarding as anything I've watched as a fan. Voyeuristic, much? Perhaps, but his unadulterated jubilation was well-deserved. Reminds me a lot of [Dirk](http://www.thefastertimes.com/sportschat/files/2011/06/112882-dirk-nowitzki.jpeg) & Jason Kidd, when they finally won theirs.
 3. **Jacoby Jones deserved the Super Bowl MVP Award.** There has been a lot of hype around the Cam Cameron firing, but the arguably best personnel move of the 2012 season is the signing of Jacoby. First of all, even as good as David Reed was as a returner, Jacoby is on a whole other level. Secondly, he finally provided a deep threat opposite Torrey. Third, Denver Broncos and Super Bowl. He came to play on the biggest stages, and who knows if the Ravens would be champions without him. And of course, [his dances](http://www.youtube.com/watch?v=bDN9zPWwEXs).
