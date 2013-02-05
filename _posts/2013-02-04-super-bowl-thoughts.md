@@ -8,7 +8,7 @@ tags: []
 
 ### What a Game.
 
-[!Great Game](http://l.yimg.com/bt/api/res/1.2/zoFoozOPI6ydAGUvPW1FkQ--/YXBwaWQ9eW5ld3M7Zmk9aW5zZXQ7aD00OTE7cT04NTt3PTYzMA--/http://media.zenfs.com/en_us/News/ap_webfeeds/172ba96a3a5f8404280f6a706700d986.jpg "AP Photos")
+![Great Game](http://l.yimg.com/bt/api/res/1.2/zoFoozOPI6ydAGUvPW1FkQ--/YXBwaWQ9eW5ld3M7Zmk9aW5zZXQ7aD00OTE7cT04NTt3PTYzMA--/http://media.zenfs.com/en_us/News/ap_webfeeds/172ba96a3a5f8404280f6a706700d986.jpg "AP Photos")
 
 Besides a terribly painful blackout, this year's Super Bowl was an incredible event. Of course, as a Ravens and 49ers fan, it was by far the best Super Bowl for me personally, but even the half-time performance (Beyonce) was better than anything I can remember (Madonna? Black-Eyed Peas? Janet Jackson?).
 
