@@ -7,7 +7,7 @@ title: Home
   {% for post in site.posts %}
     <li>
       {% unless {{post.description}} == 'draft' %}
-        <a class="eight columns shake" href="{{ post.url }}">
+        <a class="eight columns poster" href="{{ post.url }}">
           {% if {{post.category}} == "football" %}
             <i class="icon-bullhorn"></i>
           {% elsif {{post.category}} == "business" %}
