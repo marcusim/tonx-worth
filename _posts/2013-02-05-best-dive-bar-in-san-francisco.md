@@ -10,7 +10,7 @@ tags: []
 
 ![yum.](http://s3-media4.ak.yelpcdn.com/bphoto/qFa13249ax6n8OgtIk_wfQ/l.jpg 'Thirsty...')
 
-When it comes to delicious beer and sticky floors, it really only comes down to [Zeitgeist](http://www.zeitgeistsf.com/) or [Toronado](http://www.toronado.com/). They both have amazing beer selections (mmm, [Russian River](http://russianriverbrewing.com/)), so why Zeitgeist?
+When it comes to delicious beers and sticky floors, it really only comes down to [Zeitgeist](http://www.zeitgeistsf.com/) or [Toronado](http://www.toronado.com/). They both have amazing craft beer selections (mmm, [Russian River](http://russianriverbrewing.com/)), so why Zeitgeist?
 
 Simple, really:
 
