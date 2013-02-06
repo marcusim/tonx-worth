@@ -16,7 +16,7 @@ Simple, really:
 
 1. **Dat Bloody Mary.** Tasty, spicy, and strong. Just like how I like my women.
 2. **Big Porch.** Lots of space and outdoor seating - neither of which Toronado can claim. If you smoke, you can accelerate your demise *while* pounding beers on these sweet community-style benches!
-3. **The Tamale Lady.** Please tell me you've at least [heard of her](http://www.yelp.com/biz/the-tamale-lady-san-francisco). This is her stomping ground. Also, I'm not exactly sure what's in her sauce bottles, but get it.
+3. **The Tamale Lady.** Please tell me you've at least [heard of her](http://www.yelp.com/biz/the-tamale-lady-san-francisco). This is her stomping ground. Protip: I'm not exactly sure what's in her sauce bottles, but get it.
 4. **Zeitgeist Matchbooks.** If you haven't seen one yet, you can thank me later.
 
 One word of warning: Beware the hipsters.
