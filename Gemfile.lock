@@ -15,7 +15,6 @@ GEM
     liquid (2.2.2)
     maruku (0.6.0)
       syntax (>= 1.0.0)
-    psych (1.3.4)
     syntax (1.0.0)
     yuicompressor (1.2.0)
 
@@ -26,5 +25,4 @@ DEPENDENCIES
   RedCloth
   jekyll (~> 0.9)
   kramdown
-  psych
   yuicompressor

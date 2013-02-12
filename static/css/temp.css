@@ -1372,9 +1372,14 @@ article ul li li li {
   -o-transition:all 500ms ease-in;*/
 }
 
+#top-nav {
+  text-align: right;
+}
+
 #top-nav li {
   display: inline-block;
   overflow: hidden;
+  padding-left: 14px;
 }
 
 #top-nav a, #top-nav a:visited {
