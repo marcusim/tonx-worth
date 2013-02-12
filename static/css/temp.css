@@ -1443,6 +1443,7 @@ article ul li li li {
 #copyright {
   font-size:11px;
   color:#999;
+  text-align: right;
   -webkit-transition:all 1s ease;
   -moz-transition:all 1s ease;
   -o-transition:all 1s ease;
