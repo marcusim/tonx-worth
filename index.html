@@ -3,24 +3,18 @@ layout: default
 title: "Marketing Level: Over 9000"
 ---
 
-<ul id="posts" class="twelve columns offset-by-four">
-  {% for post in site.posts %}
-    <li>
-      {% unless {{post.description}} == 'draft' %}
-        <a class="eight columns poster" href="{{ post.url }}">
-          {% if {{post.category}} == "football" %}
-            <i class="icon-bullhorn"></i>
-          {% elsif {{post.category}} == "business" %}
-            <i class="icon-money"></i>
-          {% elsif {{post.category}} == "food" %}
-            <i class="icon-food"></i>
-          {% else %}
-            <i class="icon-asterisk"></i>
-          {% endif %} 
-           {{ post.title }}
-        </a>
-        <span class="three columns">{{ post.date | date: "%b %d, %Y" }}</span>
-        {% endunless %}
-    </li>
-  {% endfor %}
-</ul>
+<div class="twelve columns offset-by-four">
+  {% include pages/header.html %}
+  <hr class="large">
+  {% include pages/about.html %}
+  <hr>
+  {% include pages/services.html %}
+  <hr>
+  {% include pages/pricing.html %}
+  <hr>
+  {% include pages/contact.html %}
+  <hr>
+  {% include pages/testimonials.html %}
+  <hr>
+  {% include footer.html %}
+</div>
