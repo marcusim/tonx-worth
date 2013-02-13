@@ -1356,18 +1356,23 @@ article ul li li li {
 }
 
 #avatar {
-/*  background-image: url('/static/images/marcus.jpg');
+  background-image: url('/static/images/square9-logo-small.jpg');
   background-size: cover;
-  height: 134px;
-  width: 134px;
+  height: 135px;
+  width: 135px;
   display: block;
-  border-radius: 50%;
+  margin-top: 8px;
   margin-bottom: 8px;
-  border: 2px solid #339999;
-  opacity: 0.8;
-  -webkit-transition:all 500ms ease-in;
-  -moz-transition:all 500ms ease-in;
-  -o-transition:all 500ms ease-in;*/
+  -webkit-transition:all 350ms ease-in;
+  -moz-transition:all 350ms ease-in;
+  -o-transition:all 350ms ease-in;
+}
+
+#avatar:hover {
+  background-image: url('/static/images/square9-logo-small-black.jpg');
+  -webkit-transition:all 350ms ease-in;
+  -moz-transition:all 350ms ease-in;
+  -o-transition:all 350ms ease-in;
 }
 
 #top-nav {
@@ -1409,8 +1414,9 @@ article ul li li li {
   padding-bottom: 8px;
 }
 
-#side-nav i {
-  font-size: 50px;
+#side-nav a.icon {
+  font-size: 14px;
+  color: transparent;
 }
 
 #side-nav a, #side-nav a:visited {
