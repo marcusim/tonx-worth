@@ -41,12 +41,12 @@ a {
 }
 
 a:hover {
-  color: #8B4513;
+  color: #DEB887;
   cursor: pointer;
 }
 
 a:visited { 
-  color: #8B4513; 
+  color: #DEB887; 
 }
 
 #posts a {
