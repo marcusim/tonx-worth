@@ -8,7 +8,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	<!-- Force Latest IE rendering engine -->
-    <title>{{ page.title }} | MLO9 Consulting</title>
+    <title>{{ page.title }}</title>
 
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -18,34 +18,11 @@
     <link rel="icon" type="image/png" href="/static/images/favicon.png" />
 
     <META name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <META name="description" content="Marketing Level: Over 9000. Kick-ass digital marketing & growth hacking consulting by Marcus Im."> 
+    <META name="description" content="Is Tonx Coffee worth it? Read Tonx reviews and find out the answer to a worthy question."> 
 
     <link rel="stylesheet" href="/static/css/style.css">
 
     <!-- GA -->
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-38082605-2']);
-      _gaq.push(['_setDomainName', 'mlo9.com']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-      function trackLink(link, category, action) { 
- 
-      try { 
-      _gaq.push(['_trackEvent', category , action, document.title]); 
-      } catch(err){}
-       
-      setTimeout(function() {
-      document.location.href = link.href;
-      }, 100);
-      }
-    </script>
 
     <!--[if IE 7]>
       <script src="/static/css/font-awesome-ie7.css"></script>
@@ -53,23 +30,6 @@
   </head>
   <body>
     <div class="container">	
-      <!-- Mobile Nav -->
-      <div id='mobile' class='two columns hidden'>
-        {% include mobile.html %}
-      </div>
-
-      <!-- Side-Nav -->
-      <div class="four columns sidebar">
-        <section>
-          {% include side-nav.html %}
-        </section>
-      </div>
-
-      <!-- Main Body Top-Nav -->
-      <div class="twelve columns offset-by-four" style="position:fixed;top:0px;padding-top:20px;padding-bottom:10px;">
-          {% include top-nav.html %}
-      </div>
-
       <!-- Main Body Content -->
       <div style="padding-top:60px;">
       {{ content }}
