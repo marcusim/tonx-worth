@@ -1171,7 +1171,7 @@ h1,h2,h3,h4 {
 }
 
 h1 { 
-  font-size: 60px;
+  font-size: 80px;
   text-align: center;
   line-height: 40px;
   margin-bottom: 20px;
@@ -1504,6 +1504,23 @@ article ul li li li {
   font-style: italic;
   font-size: 16px;
 }
+
+#footer {
+  text-align: center;
+  margin-top: 25%;
+}
+
+#footer a, #footer a:visited {
+  color: #999;
+  -webkit-transition:color 600ms ease-in;
+  -moz-transition:color 600ms ease-in;
+  -o-transition:color 600ms ease-in;
+}
+
+#footer a:hover {
+  color: #DEB887;
+}
+
 
 sup, sub {
   height: 0;

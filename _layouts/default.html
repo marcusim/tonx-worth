@@ -38,7 +38,7 @@
       function trackLink(link, category, action) { 
  
       try { 
-      _gaq.push(['_trackEvent', category , action, document.title]); 
+      _gaq.push(['_trackEvent', category , action, link.innerHTML]); 
       } catch(err){}
        
       setTimeout(function() {
