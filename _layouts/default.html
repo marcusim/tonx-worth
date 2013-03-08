@@ -35,8 +35,18 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
 
+      function trackLink(link, category, action) { 
+ 
+      try { 
+      _gaq.push(['_trackEvent', category , action, document.title]); 
+      } catch(err){}
+       
+      setTimeout(function() {
+      document.location.href = link.href;
+      }, 100);
+      }
     </script>
-    
+
     <!--[if IE 7]>
       <script src="/static/css/font-awesome-ie7.css"></script>
     <![endif]-->

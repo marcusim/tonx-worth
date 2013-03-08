@@ -1193,17 +1193,17 @@ h4 {
 }
 
 a {
-  color: #339999;
+  color: #DEB887;
   text-decoration: none;
 }
 
 a:hover {
-  color: #339999;
+  color: #8B4513;
   cursor: pointer;
 }
 
 a:visited { 
-  color: #339999; 
+  color: #8B4513; 
 }
 
 #posts a {
