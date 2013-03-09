@@ -24,7 +24,7 @@
 
     <!-- GA -->
     <script type="text/javascript">
-
+      // Standard GA Code
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-22896349-3']);
       _gaq.push(['_trackPageview']);
@@ -35,6 +35,7 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
 
+      // Link Tracker
       function trackLink(link, category, action) { 
  
       try { 
@@ -44,6 +45,23 @@
       setTimeout(function() {
       document.location.href = link.href;
       }, 100);
+      }
+
+      // SEO-Rank Tracker
+      if (document.referrer.match(/google\.com/gi) && document.referrer.match(/cd/gi)) {
+        var myString = document.referrer;
+        var r        = myString.match(/cd=(.*?)&/);
+        var rank     = parseInt(r[1]);
+        var kw       = myString.match(/q=(.*?)&/);
+        
+        if (kw[1].length > 0) {
+          var keyWord  = decodeURI(kw[1]);
+        } else {
+          keyWord = "(not provided)";
+        }
+
+        var p        = document.location.pathname;
+        _gaq.push(['_trackEvent', 'RankTracker', keyWord, p, rank, true]);
       }
     </script>
 
